@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('check out') {
       steps {
-        git(url: 'https://github.com/soumya-khanna/465a6.git', branch: 'master')
+        git(url: 'https://github.com/soumya-khanna/465a6.git', branch: 'master', changelog: true)
       }
     }
 
